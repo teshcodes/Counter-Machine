@@ -4,17 +4,16 @@ body {
     align-items: center;
     height: 80vh;
     margin: 0;
-    background-color: rgb(230, 213, 213);
     text-align: center;
     font-family: 'Roboto', sans-serif; 
-    background: linear-gradient(to right, #00c6ff, #0072ff);
+    background-color: #f0f0f0;
 }
 
 .counter-container {
     background-color: #ffffff;
     text-align: center;  
-    padding: 40px; 
-    border-radius: 15px; 
+    padding: 20px; 
+    border-radius: 10px; 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -25,16 +24,16 @@ body {
 }
 
 h1 {
-    font-size: 3em; 
+    font-size: 2.5em; 
     color: #333; 
     margin-bottom: 20px; 
     letter-spacing: 1.5px;
 }
 
 .count {
-    font-size: 5em;
-    font-weight: 700;
-    color: #0072ff;
+    font-size: 4em;
+    font-weight: 600;
+    color: green;
     margin: 20px 0;
     transition: color 0.3s ease;
 }
@@ -42,30 +41,19 @@ h1 {
 .buttons {
     display: flex;
     justify-content:center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .button {
-    padding: 3px 10px;
-    font-size: 1.2em;
+    padding: 5px 10px;
+    font-size: 0.8em;
     border: 2px solid #333333;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #0072ff;
-    color: white;
+    background-color: #ffffff;
     transition: all 0.3s ease; 
     outline: none;
-    font-weight: 700;
 }
-
-.button:hover { 
-    background: #005bb5; 
-}
-
-/* .button.clicked {
-    border-color: blue;
-    color: blue;
-} */
 
 .button:focus {
     border-color: blue;

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => { 
-    let count = 3; 
+    let count = 0; 
     const countDisplay = document.getElementById('count'); 
     const decreaseButton = document.getElementById('decrease'); 
     const resetButton = document.getElementById('reset'); 
